@@ -1,0 +1,13 @@
+def nilai_huruf(skor):
+    if skor >= 85:
+        return "A"
+    elif skor >= 70:
+        return "B"
+    elif skor >= 55:
+        return "C"
+    elif skor >= 40:
+        return "D"
+    else:
+        return "E"
+
+print(nilai_huruf(78))
